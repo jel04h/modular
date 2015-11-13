@@ -1,0 +1,62 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: .8em;
+  color: gray;
+  text-decoration: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p.title {
+  font-family: 'Economica', sans-serif;
+  font-weight: 800;
+  font-size: 1.3em;
+  font-stretch: semi-condensed;
+  color: black;
+}
+
+a p.title {
+  color: black;
+}
+
+a {
+  text-decoration: none;
+}
+
+a::hover {
+  text-decoration: none;
+}
+
+.fa {
+  color: #a1c900;
+}
+
+p.price {
+  color: red;
+}
+
+p.price .pstrike {
+  text-decoration: line-through;
+  color: gray;
+}
+
+button {
+  background-color: white;
+  border: 1px solid black;
+  display: inline-block;
+  color: black;
+  padding: .5em 1em;
+  font-family: 'Economica', sans-serif;
+  font-weight: 800;
+  font-size: 1.1em;
+  font-stretch: semi-condensed;
+}
+
+li {
+  display: inline-block;
+  height: 25.7rem;
+  width: 14.5rem;
+  background-color: bisque;
+  padding: 2em;
+  margin: .5rem;
+}
